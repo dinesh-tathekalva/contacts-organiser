@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import Contact from './Contact'
 
-
-
 class Contacts extends Component {
     state = {
             contacts: [
@@ -21,21 +19,20 @@ class Contacts extends Component {
                 {   
                     id: 3,
                     name: 'Christoph Waltz',
-                    email: 'jdoe@gmail.com',
+                    email: 'chris@gmail.com',
                     phone: '999-999-9999'
                 }
-
             ]
         }
     
     render() {
         const {contacts} = this.state
         return (
-            <div>
+            <React.Fragment>
                 {contacts.map (contact => 
                     <Contact key = {contact.id}
                             contact={contact} />)}
-            </div>
+            </React.Fragment>
         )
     }
 }
