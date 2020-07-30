@@ -1,0 +1,28 @@
+
+function App() {
+
+  // const name = 'Christoph'
+  // const showHello  = false
+  // const showMath = true
+  // const num1 = 40
+  // const num2 = 9
+
+  // let math
+  // if(showMath){
+  //   math = <h4>{num1} + {num2} = {num1 + num2}</h4>
+  // }else{
+  //   math = null
+  // }
+
+  return (
+    <div className="App">
+      <h1>The App Component</h1>
+      {/* {showHello ? <h4>Hello {name.toUpperCase()}</h4> :  null}
+      {math} */}
+    </div>
+  );
+  // return(
+  //   React.createElement('div', {className : App}),
+  //   React.createElement('h1', null, 'The App component')
+  // )
+}
