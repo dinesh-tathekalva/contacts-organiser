@@ -5,9 +5,8 @@ import './../contact.css'
 class Contact extends Component {
     state = {
         showContactInfo: true,
-    };
-
-
+    }
+    
     render() {
         const { name, email, phone } = this.props.contact;
         return (
