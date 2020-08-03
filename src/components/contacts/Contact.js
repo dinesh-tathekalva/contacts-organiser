@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Consumer } from '../../context'
-import './../contact.css'
+import '../../contact.css'
 
 class Contact extends Component {
     state = {
