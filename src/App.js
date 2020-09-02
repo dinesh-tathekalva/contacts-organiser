@@ -8,7 +8,7 @@ import AddContact from './components/contacts/AddContact';
 function App() {
 
   return (
-    <Provider>
+    <Provider >
       <div className="App">
         <Header branding="Contact Manager" />
         <div className="container">

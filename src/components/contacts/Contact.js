@@ -30,7 +30,7 @@ class Contact extends Component {
                                 className="fa fa-sort-down"
                             />
                             <i className="fa fa-trash float-right text-danger" 
-                            onClick={this.onDeleteClicked.bind(this, id, dispatch)}/>
+                            onClick={this.onDeleteClicked.bind(this, id, dispatch, nam)}/>
         
                         </h4>
                         {showContactInfo ? (<ul className="list-group">
