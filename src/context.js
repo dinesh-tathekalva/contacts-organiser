@@ -22,12 +22,7 @@ const reducer = (state, action) => {
 export class Provider extends Component {
     state = {
         contactsInfo: [
-            // {   
-            //     id: 1,
-            //     name: 'John Doe',
-            //     email: 'jdoe@gmail.com',
-            //     phone: '999-777-9979'
-            // },
+            
             {   
                 id: 2,
                 name: 'Katie Doe',
