@@ -25,14 +25,14 @@ const TextInputGroup = ({
     )
 }
 
-TextInputGroup.propTypes ={
-    label: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    value: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
-    placeholder: PropTypes.string.isRequired,
-    onChange: PropTypes.func.isRequired
-}
+// TextInputGroup.propTypes ={
+//     label: PropTypes.string.isRequired,
+//     name: PropTypes.string.isRequired,
+//     value: PropTypes.string.isRequired,
+//     type: PropTypes.string.isRequired,
+//     placeholder: PropTypes.string.isRequired,
+//     onChange: PropTypes.func.isRequired
+// }
 
 TextInputGroup.defaulProps = {
     type: 'type'
